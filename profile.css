@@ -1,0 +1,171 @@
+*{
+margin: 0px;
+padding:0px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+scroll-behavior: smooth; 
+box-sizing: border-box;
+}
+
+
+
+header{
+    background-color: black;
+    padding:30px;
+}
+h1{
+    text-align: center;
+    color:rgb(42, 212, 108,0.5);
+    text-decoration: underline;
+}
+
+
+
+.navbar{
+    padding: 20px;
+}
+nav ul{
+    list-style-type:none;
+    text-align: center;
+}
+nav ul li{
+display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color:brown;
+    font-weight:bold;
+    text-transform: uppercase;
+    margin: 0px 20px;
+}
+nav ul li a:hover{
+    color:rgb(42, 212, 108);
+}
+
+
+
+
+
+.homespace{
+    padding: 30px;
+    background-image:url('home.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#div1{
+    background-color:rgba(0,0,0,0.5);
+    padding: 30px;
+    color:white;
+    text-align: center;
+}
+.homespace h4{
+    font-weight: 300;
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+.homespace h2{
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+
+
+
+.skillsspace{
+    padding: 30px;
+    background-image:url("skill.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+.skillsspace h2 , .aboutmespace h3, .contactspace h1 {
+    color:white;
+    text-align: center;
+    margin-bottom: 20px; 
+    font-size: 38px;
+    text-transform: uppercase;
+}
+#div2, #div3 {
+    background-color:rgba(255,255,255,0.3);
+    border-radius: 12px;
+    padding-top: 20px;
+    text-align:center;
+}
+#div2 ul li{
+    display:inline-block    
+}
+#div2 img{
+    object-fit: contain;
+   width: 270px;
+   height: 180px;
+   max-width: 700px;
+   padding: 0px 30px;
+}
+
+
+
+
+.aboutmespace{
+    padding: 30px;
+    background-image:url("aboutme.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#div3{
+    color:white;
+    padding-bottom: 20px;
+    background:rgba(0,0,0,0.7);
+    text-align: center;
+}
+.aboutmespace p{
+    line-height: 25px;
+    margin:10px;
+} 
+
+
+
+
+.contactspace{
+    background-image: url("contact.jpg");
+    padding:30px;
+    background-position: center;
+    background-size: cover;
+}
+#div4{
+     padding: 20px;
+     text-align: center;
+ }
+ #div4 input{
+    border: 1px solid violet;
+    padding: 8px;
+    width:50%;
+    border-radius: 3px;
+    font-size: 15px;
+    margin-bottom: 15px; 
+}
+#div4 button{
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+#div4 label{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+footer{
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20PX;
+}
+
+
+
+
+
+
+
